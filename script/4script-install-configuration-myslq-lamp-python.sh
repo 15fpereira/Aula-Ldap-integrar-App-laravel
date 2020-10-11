@@ -1,24 +1,25 @@
 #!/bin/bash
 # Criado: 29/06/2020
-# Versão: 0.1
+# Atualizado 11/10/2020
+# Versão: 0.2
 # # ## Inicio do script ## #
 # Caminho para o Log do 4script-install-configuration-myslq-lamp-python.sh
 LOG="/var/log/4script-install-configuration-myslq.log"
 # Declaração de variáveis ambiente
 USUARIO=`id -u`
 # Variáveis de configuração do MySQL
-PASSWORD="pro@2020"
-AGAIN="pro@2020"
+PASSWORD="PassWS20"
+AGAIN="PassWS20"
 USER="root"
-GRANTALL="GRANT ALL ON *.* TO root@'%' IDENTIFIED BY 'pro@2020';"
+GRANTALL="GRANT ALL ON *.* TO root@'%' IDENTIFIED BY 'PassWS20';"
 #
 # Variáveis de configuração do ProFTPD
 INETD="standalone"
 #
 # Variáveis de configuração do PhpMyAdmin
-APP_PASSWORD="pro@2020"
-ADMIN_PASS="pro@2020"
-APP_PASS="pro@2020"
+APP_PASSWORD="PassWS20"
+ADMIN_PASS="PassWS20"
+APP_PASS="PassWS20"
 WEBSERVER="apache2"
 ADMINUSER="root"
 # Verificando se o usuário é root
